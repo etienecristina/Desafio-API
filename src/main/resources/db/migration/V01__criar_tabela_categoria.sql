@@ -1,0 +1,5 @@
+CREATE TABLE tb_categoria (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  tecnologia VARCHAR(255) NOT NULL,
+  nome VARCHAR(255) NOT NULL
+);

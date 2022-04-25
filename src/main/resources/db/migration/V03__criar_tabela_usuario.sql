@@ -1,0 +1,6 @@
+CREATE TABLE tb_usuario(
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  tipoUsuario VARCHAR(255) NOT NULL,
+  username VARCHAR(255) NOT NULL,
+  senha VARCHAR(255) NOT NULL
+  );
